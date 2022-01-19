@@ -1,0 +1,20 @@
+{
+  "name": "moviebackend",
+  "version": "1.0.0",
+  "description": "App server para peliculas ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "author": "Jose Encarnacion",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "pg": "^8.7.1"
+  }
+}
